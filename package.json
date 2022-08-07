@@ -1,0 +1,29 @@
+{
+  "name": "react-express-project",
+  "version": "1.0.0",
+  "description": "Using a video from YouTube's Traversy Media to explore how to combine my exploration of React and Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theDapperFoxtrot/react-express-project.git"
+  },
+  "author": "The Dapper Foxtrot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theDapperFoxtrot/react-express-project/issues"
+  },
+  "homepage": "https://github.com/theDapperFoxtrot/react-express-project#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

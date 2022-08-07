@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.stackIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 1rem;
+}
